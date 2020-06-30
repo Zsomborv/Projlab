@@ -1,0 +1,26 @@
+Játék leírása:
+
+A táblák információi:
+	Jobb felso sarokban a hó mennyisége olvasható, középen egy azonosító, ami a táblák megkülönböztetésére szolgál. Jobb alsó sarkában mutathatja a tábla, a rajta lévõ eszköz egyedi rövidítését:
+	BSH = Breakable Shovel
+	C = Camp
+	F = Food
+	G = Gun
+	L = Light
+	R = Rope
+	SH = Shovel
+	ST = Stencil
+	SP = Surprise
+	SW = Swim Suit
+	Amennyiben ezek az eszközök bele vannak fagyva a jégtáblába, akkor a rövidítés háttere "jég" színû, amennyiben már nem, akkor áttetszõ.
+	A bal felso sarokban a karakterek típusát láthatjuk és azon belül számosságát, ha többen vannak. A sötétkék az eszkimó, a piros a sarkkutató és a türkízkék a jegesmedve.
+	Az iglut a tábla azonsítója körüli szürke kör jelöli. Ha egy sarkkutató leellenorzi a szomszédos táblák valamelyikét, a tábla bal alsó sarkában jelöljük a tábla teherbírását a játék végéig.
+	
+Az irányítás: 
+	A soron következo játékos neve, energiája, életereje és aktuális jégtáblája alatti gombokkal lehet irányítani a játékot.
+	A "Step" gomb megnyomására felugrik egy ablak, ami megkérdezi, mely táblára szeretnénk lépni, itt csak azok jelennek meg, amire lehetséges az átlépés.
+	A "Special" gomb lenyomásával az adott karakter különleges képességét tudjuk véghezvinni, eszkimó iglut épít a jégtáblára, a sarkkutatónál felugrik egy ablak, ahol ki lehet választani, hogy melyik szomszédos jégtáblát vizsgáljuk meg, a lépéshez hasonlóan.
+	A "Pick up" gomb egy táblán lévo eszközt vesz fel, ha azon nincs hó és nincs befagyva. Ekkor az eszköz a jégtábláról a "Bag"-be kerül.
+	A "Manage" gomb segítségével lehet egy mennyiségnyi havat ellapátolni, jeget feltörni vagy iglut rombolni.
+	A "Bag" megnyomására felugrik egy ablak, amin belül az adott karakternél található eszközök vannak felsorolva gombokként. Rákattintva, használjuk az adott eszközt.
+	A "Build gun" gombbal tudjuk a játék befejezését kezdeményezni, ha sikerül összeépíteni a játék véget ért, gyoztek a játékosok.
